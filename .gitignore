@@ -1,1 +1,68 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pkl.gz
+
+# ---- Virtual Environments ----
+.env
+.venv/
+venv/
+ENV/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Jupyter / Notebooks ----
+.ipynb_checkpoints
+*.ipynb_convert/
+
+# ---- OS Specific ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs / Temp ----
+*.log
+*.tmp
+*.bak
+
+# ---- Dependencies ----
+# keep requirements.txt but ignore installed packages
+site/
+site-packages/
+Pipfile.lock
+poetry.lock
+
+# ---- AI/ML Project ----
+# Large datasets or models (don’t push to GitHub)
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.bin
+*.model
+
+# Hugging Face / Transformers cache
+.cache/
+transformers_cache/
+torch_cache/
+datasets/
+
+# ---- Streamlit / Flask / FastAPI ----
+.streamlit/
+*.db
+
+# ---- Reports / Generated ----
+*.pdf
+*.docx
+*.xlsx
+*.csv
+outputs/
 
